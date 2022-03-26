@@ -1,31 +1,43 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import wallpaper from "../images/wallpaper.jpg"
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby hola.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-  </Layout>
+
+  <Layout style={{backgroundImage: `url({/.wallpaper})`}}>
+      
+      <Seo title="Home" />
+  
+     <div className="homebutton">
+        <button>  <Link to="/">Home</Link> </button>
+     </div>
+  
+     <div>  
+        <button> <Link to="/about/">About</Link> </button>
+    </div>
+  
+    <div>
+        <button> <Link to="/contact/">Contact</Link> </button>
+    </div>
+              
+      <div>
+      <p>
+        Impresiones 3D <br/> 
+        Decorativas <br/>
+        Funcionales <br/>
+      </p>
+     </div>
+
+     <div>
+       <button>Elegir</button>
+     </div>
+
+  </Layout>    
 )
 
 export default IndexPage
