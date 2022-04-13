@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 1366,
+          margin: `1 auto`,
+          maxWidth: 1080,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
@@ -38,9 +38,9 @@ const Layout = ({ children }) => {
         <footer
            
       >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Develop By
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://twitter.com/marcelo69420">@marce69420</a>
         </footer>
       </div>
     </>

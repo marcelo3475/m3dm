@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `m3dm... 3D printed articles`,
+    title: `m3dm`,
     description: `3d printed articles. functional, decoratives and others.`,
     author: `@marcelo69420`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

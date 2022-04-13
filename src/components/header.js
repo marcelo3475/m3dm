@@ -6,7 +6,6 @@ const Header = ({ siteTitle }) => (
   <header>
     <div
       style={{
-        margin: `fixed`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
@@ -16,7 +15,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >
@@ -24,18 +23,6 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     
-    </div>
-
-    <div className="homebutton">
-        <button>  <Link to="/">Home</Link> </button>
-     </div>
-  
-     <div>  
-        <button> <Link to="/about/">About</Link> </button>
-    </div>
-  
-    <div>
-        <button> <Link to="/contact/">Contact</Link> </button>
     </div>
               
   </header>

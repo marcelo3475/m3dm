@@ -6,7 +6,9 @@ html {
   overflow-y: scroll;
 }
 body {
-  margin: 0;
+  background-image: url(../images/wallpaper.jpg);
+  background-color: none;
+  margin: 5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
